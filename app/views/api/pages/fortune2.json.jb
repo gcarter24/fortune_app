@@ -1,1 +1,1 @@
-{ message: "Good news is on the horizon" }
+{ message: @message }
