@@ -1,5 +1,13 @@
 class Api::PagesController < ApplicationController
-  def hello_action
-    render "hello.json.jb" #json: { message: "hello" }
+  def fortune1
+    render "fortune1.json.jb" #json: { message: "hello" }
   end
+
+  def fortune2
+    render "fortune2.json.jb"
+  end
+
+  def fortune3
+    render "fortune3.json.jb"
+  end 
 end
