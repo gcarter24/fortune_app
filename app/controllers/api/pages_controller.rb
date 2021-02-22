@@ -9,5 +9,9 @@ class Api::PagesController < ApplicationController
 
   def fortune3
     render "fortune3.json.jb"
-  end 
+  end
+
+  def fortune4
+    render "fortune4.json.jb"
+  end
 end
